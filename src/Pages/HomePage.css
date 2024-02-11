@@ -1,0 +1,54 @@
+.mainSection{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .mainDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #moveButton {
+    position: fixed;
+  }
+  
+  .buttonContainer{
+    margin: 0 auto;
+    
+  }
+  
+  .buttonContainer > button {
+    color: blueviolet;
+    font-weight: 700;
+    border:none;
+    background-color: pink;
+  border-color: blueviolet;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+  }
+
+  .linkButtons1 {
+    background-color: white;
+    color: blueviolet;
+    font-weight: 700;
+    width: 0px;
+    border:none;
+    background-color: pink;
+    border-color: blueviolet;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+  }
+
+  .buttonContainer > button:hover {
+    background-color: rgb(230, 196, 243);
+  }
+
+  .catFlowers{
+    width: 50%;
+    height: auto;
+    margin-top: 1em;
+  }
