@@ -1,7 +1,7 @@
 import React from "react";
 import catgif from "../cat-kiss2.gif"
 import { Outlet, Link, useLocation } from "react-router-dom";
-import "./Yippie.css"
+import "./FinalPage.css"
 
 const FinalPage = () => {
     return (
