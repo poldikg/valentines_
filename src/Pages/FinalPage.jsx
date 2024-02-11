@@ -8,7 +8,7 @@ const FinalPage = () => {
         <div>   
             <h1> THANK YOUUU  </h1>
             <img src={catgif} alt="" srcset="" />
-            <p> I will call you to arrange the time!!!</p>
+           
         </div>
     )
 }
